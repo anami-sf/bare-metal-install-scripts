@@ -1,12 +1,8 @@
 #!/bin/bash
 
 # Install cert bot to generate SSL certificate
-apt-get update
-sudo apt-get install certbot
-apt-get install python-certbot-nginx
-
-apt-get update
-sudo apt-get install certbot
+sudo apt update
+sudo apt install certbot
 apt-get install python3-certbot-nginx
 
 echo "Installation complete"
